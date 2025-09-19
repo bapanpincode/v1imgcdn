@@ -92,7 +92,7 @@
 }
 body {
   font-family: var(--ltr-main-font-f) !important;
-  font-display: swap
+  font-display: swap !important;
   direction: ltr;
   text-align: left;
   position: relative;
@@ -489,6 +489,11 @@ a:hover {
   }
 }
 
+@media only screen and (min-width: 2000px) and (max-width: 1400px) {
+  .header-basic a.menu-link{
+    font-size: .85rem !important;
+  }
+}
 .contact-info-card {
   font-weight: 600;
   padding: 0;
