@@ -489,7 +489,7 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 2000px) and (max-width: 1400px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .header-basic a.menu-link{
     font-size: .85rem !important;
   }
